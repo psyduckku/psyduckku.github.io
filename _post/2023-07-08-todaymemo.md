@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 ---
 layout: single
@@ -22,7 +22,4 @@ resources/templates/여기에.html
   ResponseBody는 html 태그 없이 request요청시 body에 있는 내용을 그대로 뷰에 전달함.   
   그래서 뷰 내용에 보면 html태그 뼈대 없이 data만 표시됨.   
   return "<html> ~~ name~~ </html>" 해서 리턴해줄 수 있겠지만   
-  언젠간 쓸 일이 있겠지?(근데 ResponseBody는 별로 쓸일이 없다고함.   
-  
-  
-  
+  언젠간 쓸 일이 있겠지?(근데 ResponseBody는 별로 쓸일이 없다고함.
